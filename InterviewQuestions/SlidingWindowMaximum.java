@@ -20,6 +20,22 @@ public class SlidingWindowMaximum {
 	
 	static class Solution {
 	    public int[] maxSlidingWindow(int[] a, int k) {
+	    	// int[] arr = new int[nums.length - k + 1];
+	        // Queue<Integer> q = new ArrayDeque<>();
+	        // for(int i = 0; i < nums.length - k + 1; i++) {
+	        //     int a = nums[i];
+	        //     for(int j = i + 1; j < i + k; j++) {
+	        //         if(nums[j] > a) {
+	        //             a = nums[j];
+	        //         }
+	        //         continue;
+	        //     }
+	        //     q.add(a);
+	        // }
+	        // for(int i = 0; i < nums.length - k + 1; i++) {
+	        //     arr[i] = q.poll();
+	        // }
+	        // return arr;
 	    	int n = a.length;
 	    	if(n <= 1) return a;
 	    	int[] ans = new int[n - k + 1];
