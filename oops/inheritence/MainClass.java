@@ -40,7 +40,7 @@ public class MainClass {
 //		t1.eat();
 		
 		Teacher t1 = new Teacher("Harry");
-		
+		t1.walk();
 
 	}
 

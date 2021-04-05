@@ -17,7 +17,7 @@ public class Person {
 //		System.out.println(name + " is eating");
 //	}
 	
-	public void walk() {
+	protected void walk() {
 		System.out.println("Person " + name + " is walking");
 	}
 	public void eat() {
