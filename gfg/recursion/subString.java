@@ -8,7 +8,7 @@ public class subString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String str = "cab";
+		String str = "abc";
         printSubSeq(str);
 
 	}
