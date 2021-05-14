@@ -12,6 +12,12 @@ public class test {
 //		toBinaryString()
 //		int a=Character.getNumericValue(c);
 //		int a=Integer.parseInt(String.valueOf(c));
+//		int a = (int) Math.cbrt(100);
+//		System.out.println(a);
+//		int pow = (int)Math.pow((double)100, (double)1/3);
+//		System.out.println(pow);
+//		System.out.println((double)1/3);
+		
 //		ArrayList<char[]> al = new ArrayList<>();
 		
 //		String s = " Hello I'm your String";
