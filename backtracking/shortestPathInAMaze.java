@@ -17,8 +17,8 @@ public class shortestPathInAMaze {
 					{1, 1, 1, 1, 1, 0, 0, 1, 1, 1},
 					{0, 0, 1, 0, 0, 1, 1, 0, 0, 1}
 			};
-//		int result = shortestPath(a, 0, 0, 8, 0);
-		int result = shortestPath(a, 0, 0, 0, 9);
+		int result = shortestPath(a, 0, 0, 8, 0);
+//		int result = shortestPath(a, 0, 0, 0, 9);
 		if(result >= 1000000) {
 			System.out.println("No path possible");
 		} else {
