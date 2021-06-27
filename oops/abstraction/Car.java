@@ -8,6 +8,14 @@ public abstract class Car {
 //		
 //	}
 	
+//	public Car(int n) {
+//		System.out.println("printing " + n);
+//	}
+	
+	public Car() {
+		System.out.println("base constructor called");
+	}
+	
     public abstract void accelerate();
 	public abstract void breaking();
 	

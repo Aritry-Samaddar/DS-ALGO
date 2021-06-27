@@ -1,6 +1,11 @@
 package oops.abstraction;
 
 public class WagonR extends Car {
+//	public WagonR(int n) {
+//		super(n);
+//		// TODO Auto-generated constructor stub
+//	    System.out.println("constructor is called");
+//	}
 	@Override
 	public void accelerate() {
 		System.out.println("WagnoR is accelerating");

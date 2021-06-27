@@ -8,6 +8,14 @@ public class test {
 	static int ans;
 	static Character[][] generateNumMap;
 	public static void main(String[] args) {
+		char[] s = {'h', 'e', 'l', 'l', 'o'};
+		
+		char[] ans = new char[s.length];
+        int k = 0;
+        for(int i = s.length - 1; i >= 0; i--) {
+            ans[k++] = s[i];
+        }
+        System.out.println(ans);
 		// TODO Auto-generated method stub
 //		replace()
 //		trim()
