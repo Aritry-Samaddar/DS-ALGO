@@ -15,7 +15,10 @@ public class test {
         for(int i = s.length - 1; i >= 0; i--) {
             ans[k++] = s[i];
         }
-        System.out.println(ans);
+//        System.out.println(ans);
+        System.out.println(4 << 1);
+        System.out.println(8 >> 2);
+        
 		// TODO Auto-generated method stub
 //		replace()
 //		trim()
@@ -107,9 +110,9 @@ public class test {
 //		fun(String.valueOf(m).toCharArray(), 4);
 //		System.out.println(ans);
 		
-//		generateNum();
-//		int[] a = {2, 3, 4};
-//		words(a, 0, "");
+		generateNum();
+		int[] a = {2, 3, 4};
+		words(a, 0, "");
 		
 		List<String> al = new ArrayList<>();
 		bracket(3, 0, 0, "", al);

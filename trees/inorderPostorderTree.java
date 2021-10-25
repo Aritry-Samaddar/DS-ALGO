@@ -8,7 +8,6 @@ public class inorderPostorderTree {
 
 		int[] inOrder = {4, 2, 1, 5, 3};
 		int[] postOrder = {4, 2, 5, 3, 1};
-		
 		Node root = buildTree(inOrder, postOrder, 0, 4);
 		inorderPrint(root);
 	}
